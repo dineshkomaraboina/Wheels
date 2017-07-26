@@ -14,6 +14,7 @@
 		C79B7C681F2715DA00A8C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79B7C661F2715DA00A8C80E /* LaunchScreen.storyboard */; };
 		C79B7C731F2715DA00A8C80E /* Login_registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B7C721F2715DA00A8C80E /* Login_registrationTests.swift */; };
 		C79B7C7E1F2715DA00A8C80E /* Login_registrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B7C7D1F2715DA00A8C80E /* Login_registrationUITests.swift */; };
+		C79B7D061F2805A200A8C80E /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B7D051F2805A200A8C80E /* signupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C79B7C791F2715DA00A8C80E /* Login registrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login registrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79B7C7D1F2715DA00A8C80E /* Login_registrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_registrationUITests.swift; sourceTree = "<group>"; };
 		C79B7C7F1F2715DA00A8C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79B7D051F2805A200A8C80E /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C79B7C641F2715DA00A8C80E /* Assets.xcassets */,
 				C79B7C661F2715DA00A8C80E /* LaunchScreen.storyboard */,
 				C79B7C691F2715DA00A8C80E /* Info.plist */,
+				C79B7D051F2805A200A8C80E /* signupViewController.swift */,
 			);
 			path = "Login registration";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79B7C601F2715D900A8C80E /* ViewController.swift in Sources */,
+				C79B7D061F2805A200A8C80E /* signupViewController.swift in Sources */,
 				C79B7C5E1F2715D900A8C80E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				C79B7C841F2715DA00A8C80E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79B7C851F2715DA00A8C80E /* Build configuration list for PBXNativeTarget "Login registrationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				C79B7C871F2715DA00A8C80E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79B7C881F2715DA00A8C80E /* Build configuration list for PBXNativeTarget "Login registrationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				C79B7C8A1F2715DA00A8C80E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
